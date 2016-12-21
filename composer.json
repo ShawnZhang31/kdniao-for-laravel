@@ -1,0 +1,17 @@
+{
+    "name": "shawn/kdniao",
+    "description": "kdniao service for laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shawn",
+            "email": "shawnzhang31@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Shawn\\Kdniao\\":"src/"
+        }
+    }
+}
