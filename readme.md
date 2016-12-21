@@ -1,7 +1,7 @@
 ##快递鸟,快递查询
 ###安装
 ```sh
-composer require fzaninotto/faker
+composer require shawn/kdniao
 ```
 ###配置
 在.env文件中添加
