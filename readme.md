@@ -16,8 +16,9 @@ Shawn\Kdniao\KdniaoServiceProvider::class,
 ```
 ###使用
 ```sh
-return Kdniao::getOrderTracesByJson("{'OrderCode':'','ShipperCode':'HHTT','LogisticCode':'580334019453'}");
-
+return Kdniao::getOrderTraces('HHTT','580334019453');
+```
+```sh
 返回数据为:
 {
 "EBusinessID": "1272627",

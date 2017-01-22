@@ -58,6 +58,17 @@ class Kdniao
     }
 
     /**
+     * @param $shipperCode,快递公司编码
+     * @param $LogisticCode,快递单号
+     * @return string
+     */
+    public function getOrderTraces($shipperCode,$LogisticCode)
+    {
+        $json="{'OrderCode':'','ShipperCode':"."'".$shipperCode."'".",'LogisticCode':"."'".$LogisticCode."'}";
+        return $this->getOrderTracesByJson($json);
+    }
+
+    /**
      * 判断时候为json类型
      * @param $str
      * @return bool
